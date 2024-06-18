@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-Module: 0-making_change
-
-Contains a function to determine the fewest number of coins needed to meet a given amount.
+Contains a function to determine the fewest number of
+coins needed to meet a given amount.
 """
+
 
 def makeChange(coins, total):
     """
@@ -14,7 +14,8 @@ def makeChange(coins, total):
     - total (int): The total amount to meet.
 
     Returns:
-    - int: The fewest number of coins needed to meet the total, or -1 if the total cannot be met.
+    - int: The fewest number of coins needed to meet the total,
+    or -1 if the total cannot be met.
     """
     if total <= 0:
         return 0
